@@ -62,9 +62,9 @@
     justify-content:start;
     align-items:center;
 }
-.flex-container{
-    display:flex;
-    width:50%;
-    justify-content:space-around;
-    align-items:center;
+.grid2-container{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:20%;
+    
 }
